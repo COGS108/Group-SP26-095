@@ -13,7 +13,7 @@ These directories are setup for this desire.
 - Data may be pre-processed and wrangled in steps.  Anything other than the final product is stored in (and later reloaded from) `01-interim/`. Final products of pre-processing/wrangling go in `02-processed`
 - Analysis and modeling steps will load the data only from `02-processed`
 
-## Opinions and suggestions
+### Opinions and suggestion
 
 Raw data must be treated as immutable — it's okay to read and copy raw data to manipulate it into new outputs, but never okay to change it in place. 
 
